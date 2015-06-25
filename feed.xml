@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AndysBlong</title>
+    <description>欢迎访问我的博客！
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 25 Jun 2015 16:41:10 +0800</pubDate>
+    <lastBuildDate>Thu, 25 Jun 2015 16:41:10 +0800</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>笔记</title>
+        <description>&lt;h1 id=&quot;android&quot;&gt;Android学习笔记&lt;/h1&gt;
+
+&lt;p&gt;*Activity初步&lt;/p&gt;
+
+&lt;p&gt;*Intent&lt;/p&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;大标题&lt;/h1&gt;
+&lt;p&gt;1.将很快就会&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;中标题&lt;/h2&gt;
+&lt;p&gt;2.二级标题&lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;小标题&lt;/h3&gt;
+&lt;p&gt;3.三级标题&lt;/p&gt;
+</description>
+        <pubDate>Sun, 28 Jun 2015 05:48:22 +0800</pubDate>
+        <link>http://yourdomain.com/my/2015/06/28/note.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/my/2015/06/28/note.html</guid>
+        
+        
+        <category>my</category>
+        
+      </item>
+    
+      <item>
+        <title>My Pages</title>
+        <description>&lt;p&gt;今天很高兴，完成了我的&lt;code&gt;博客&lt;/code&gt;
+#大标题
+1.将很快就会&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;中标题&lt;/h2&gt;
+&lt;p&gt;2.二级标题&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;小标题&lt;/h3&gt;
+&lt;p&gt;3.三级标题&lt;/p&gt;
+</description>
+        <pubDate>Fri, 26 Jun 2015 05:48:22 +0800</pubDate>
+        <link>http://yourdomain.com/my/2015/06/26/Welcome.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/my/2015/06/26/Welcome.html</guid>
+        
+        
+        <category>my</category>
+        
+      </item>
+    
+      <item>
+        <title>My Pages</title>
+        <description>&lt;p&gt;今天很高兴，完成了我的&lt;code&gt;博客&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;nd&quot;&gt;@Override&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;protected&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Object&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;FindModel&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Cursor&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pCursor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;ModelUser&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_ModelUser&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;ModelUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;_ModelUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setUserID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pCursor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getInt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pCursor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getColumnIndex&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;UserID&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)));&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;_ModelUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setUserName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pCursor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getString&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pCursor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getColumnIndex&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;UserName&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)));&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;Date&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_CreateDate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DateTools&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getDate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pCursor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getString&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pCursor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getColumnIndex&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;CreateDate&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)),&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;yyyy-MM-dd HH:mm:ss&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;	
+		&lt;span class=&quot;n&quot;&gt;_ModelUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setCreateDate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_CreateDate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;_ModelUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setState&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pCursor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getInt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pCursor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getColumnIndex&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;State&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;))));&lt;/span&gt;
+		
+		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_ModelUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;大标题&lt;/h1&gt;
+&lt;p&gt;1.将很快就会&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;中标题&lt;/h2&gt;
+&lt;p&gt;2.二级标题&lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;小标题&lt;/h3&gt;
+&lt;p&gt;3.三级标题&lt;/p&gt;
+</description>
+        <pubDate>Wed, 03 Jun 2015 05:48:22 +0800</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2015/06/03/Welcome-to-MyPages.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/06/03/Welcome-to-MyPages.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
